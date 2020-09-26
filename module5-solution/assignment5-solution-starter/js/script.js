@@ -31,7 +31,7 @@ var insertHtml = function (selector, html) {
 
 // Show loading icon inside element identified by 'selector'.
 var showLoading = function (selector) {
-  var html = "<div class='text-center'>";
+  var html = "<div class='text-center'>"
   html += "<img src='images/ajax-loader.gif'></div>";
   insertHtml(selector, html);
 };
@@ -114,7 +114,7 @@ function buildAndShowHomeHTML (categories) {
       // Hint: you need to surround the chosen category short name with something before inserting
       // it into the home html snippet.
       //
-     var homeHtmlToInsertIntoMainPage = insertProperty (homeHtml, "randomCategoryShortName","'" + chosenCategoryShortName.short_name + "'");
+     var homeHtmlToInsertIntoMainPage = insertProperty (homeHtml, "randomCategoryShortName","'" + chosenCategoryShortName + "'");
 
 
       // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
