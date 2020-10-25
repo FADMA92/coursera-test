@@ -1,0 +1,18 @@
+<<div class="row">
+
+   <div ng-repeat="item in list.foundItems">
+
+    <div  class="col-lg-12">
+
+      <p1> {{ item.name }} </p1>
+      <p2> {{ item.short_name }} </p2>
+      <p> {{ item.description }} </p>
+      <button ng-click="list.onRemove({index: $index});"> Don't want this one!</button>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div class= "error" ng-if="list.isempty()">Nothing Found!</div>
