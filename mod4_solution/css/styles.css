@@ -1,5 +1,6 @@
 body {
   font-size: 1.2em;
+
 }
 
 h1 {
@@ -29,6 +30,75 @@ li[ui-sref]:hover {
   box-sizing: border-box;
 }
 
-img {
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
+img {
+  padding: "auto";
+
+}
+
+h3 {
+  padding-left: 640px;
+
+  }
+
+#categories {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+
+#categories td, #categories th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+#categories td:hover {background-color: white;}
+
+
+#categories th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #A52A2A;
+  color: white;
+}
+
+#categories td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  color: black;
+  background-color: #A9A9A9;
+}
+
+#items {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+
+#items td, #items th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#items th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #A52A2A;
+  color: white;
+}
+
+#items td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  color: black;
+  background-color: #A9A9A9;
 }

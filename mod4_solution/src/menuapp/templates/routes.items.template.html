@@ -1,5 +1,19 @@
-<a ui-sref="home">Home</a> &lt; <a ui-sref="categories" >Categories</a> &lt; <span>{{itemsCtrl.requestedCategory}}</span>
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <div class="navbar-brand">Welcome to our restaurant</div>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a ui-sref="home">Home</a></li>
+      <li><a ui-sref="categories"> Categories</a></li>
+      <li class="active"><a ui-href="#"> Items</a></li>
+    </ul>
+  </div>
+</nav>
 
 <h3>Menu Items for {{itemsCtrl.requestedCategory}}</h3>
+
 
 <items category-items="itemsCtrl.menu_items"></items>

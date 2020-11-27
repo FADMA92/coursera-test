@@ -1,5 +1,20 @@
 <ul>
   <li ng-repeat="item in $ctrl.categoryItems">
-    {{item.short_name}} => {{item.name}}
+    <table id="items" width >
+    <tr>
+    <th>Short Name</th>
+    <th>Item Name</th>
+    <th>Description</th>
+    <th>Price Small</th>
+    <th>Price Large</th>
+    </tr>
+    <tr>
+    <td>{{item.short_name}}</td>
+    <td>{{item.name}}</td>
+    <td>{{item.description}}</td>
+    <td>{{item.price_small}}</td>
+    <td>{{item.price_large}}</td>
+   </tr>
+    </table>
   </li>
 </ul>
